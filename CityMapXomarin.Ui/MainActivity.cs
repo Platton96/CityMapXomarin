@@ -25,7 +25,7 @@ namespace CityMapXomarin.Ui
             fab.Click += FabOnClick;
 		}
 
-		public override bool OnCreateOptionsMenu(IMenu menu)
+		public override bool OnCreateOptionsMenu(IMenu menu )
         {
             MenuInflater.Inflate(Resource.Menu.menu_main, menu);
             return true;
